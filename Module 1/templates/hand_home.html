@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Projects
+	</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<style type="text/css">
+		/* 
+		#main {
+			z-index: -1;
+			position: absolute;
+			width: 100%;
+			left: 0px;
+		}
+
+
+		#name {
+			font-size: 400%;
+		}
+
+		#my-info {
+			font-size: 300%;
+		} */
+
+		#work {
+
+			padding-top: 5%;
+			background-color: rgb(69, 86, 125);
+			width: 100%;
+			padding-bottom: 10%;
+		}
+
+		/* #projects {
+			margin-top: 5%;
+			margin-left: 25%;
+		} */
+
+		/* #my-project-title {
+			margin-left: 30%;
+			font-size: 300%;
+		} */
+
+		.project-div {
+
+			cursor: pointer;
+		}
+
+		.fig-caption {
+			top: 0px;
+			background-color: gray;
+			width: 100%;
+			text-align: center;
+			font-size: 200%;
+			color: black;
+		}
+
+		.projects {
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+	<div id="main">
+		<div id="work">
+			<div class="container row mx-auto" style="margin-bottom: 20px;">
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form1">
+							<button type="submit">
+								<a href="#">
+									<input value="Chandrakala" type="hidden" name="Chandrakala" />
+									<img src="../static/Chandrakala.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Chandrakala</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form2">
+							<button type="submit">
+								<a href="#">
+									<input value="Hansaasya" type="hidden" name="Hansaasya" />
+									<img src="../static/Hansaasya.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Hansaasya</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="container row mx-auto" style="margin-bottom: 20px;">
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form3">
+							<button type="submit">
+								<a href="#">
+									<input value="Kapitth" type="hidden" name="Kapitth" />
+									<img src="../static/Kapitth.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Kapitth</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form4">
+							<button type="submit">
+								<a href="#">
+									<input value="Kartarimukh" type="hidden" name="Kartarimukh" />
+									<img src="../static/Kartarimukh.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Kartarimukh</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="container row mx-auto" style="margin-bottom: 20px;">
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form5">
+							<button type="submit">
+								<a href="#">
+									<input value="Tamrachud" type="hidden" name="Tamrachud" />
+									<img src="../static/Tamrachud.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Tamrachud</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form6">
+							<button type="submit">
+								<a href="#">
+									<input value="Padmakosh" type="hidden" name="Padmakosh" />
+									<img src="../static/Padmakosh.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Padmakosh</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="container row mx-auto" style="margin-bottom: 20px;">
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form7">
+							<button type="submit">
+								<a href="#">
+									<input value="Pataka" type="hidden" name="Pataka" />
+									<img src="../static/Pataka.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Pataka</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div id="projects" class="col d-flex justify-content-center">
+					<div class="project-div">
+						<form method="POST" action="{{ url_for('handGesture') }}" id="form8">
+							<button type="submit">
+								<a href="#">
+									<input value="Soochi" type="hidden" name="Soochi" />
+									<img src="../static/Soochi.jpg" width="400px" height="400px"><br>
+									<div class="fig-caption">Soochi</div>
+								</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
