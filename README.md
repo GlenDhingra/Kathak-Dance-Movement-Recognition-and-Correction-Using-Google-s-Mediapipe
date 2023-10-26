@@ -1,6 +1,6 @@
 # Kathak Dance Movement Recognition and Correction Using Google's Mediapipe
 
-![Implementation Image 1](/images/implementation1.png)
+![Implementation Image 1](Images/Image1.jpg)
 
 ![Implementation Image 2](/images/implementation2.png)
 
