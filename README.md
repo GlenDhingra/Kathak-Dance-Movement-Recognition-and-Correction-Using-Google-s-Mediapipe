@@ -26,7 +26,12 @@ We are pleased to share that our work in this project has resulted in a detailed
 
 - **Methodology:** A detailed explanation of the tools and techniques used in posture detection and correction.
 
+
+![Structure Image](Images/Image3.jpg)
+
 - **Results:** An analysis of the results and the effectiveness of the system in recognizing and correcting Kathak dance movements.
+
+![Output and Results Image](Images/Image4.jpg)
 
 - **Conclusion:** A summary of the project's achievements and potential future directions.
 
@@ -36,6 +41,3 @@ If you have any questions, suggestions, or would like to collaborate on this pro
 
 - Email: glendhingra27@gmail.com
 
-![Structure Image](Images/Image3.jpg)
-
-![Output and Results Image](Images/Image4.jpg)
