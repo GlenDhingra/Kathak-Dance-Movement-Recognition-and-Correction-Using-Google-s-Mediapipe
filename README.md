@@ -1,12 +1,14 @@
 # Kathak Dance Movement Recognition and Correction Using Google's Mediapipe
 
-![Implementation Image 1](Images/Image1.jpg)
-
-![Implementation Image 2](/images/implementation2.png)
-
 ## Project Overview
 
 This project, undertaken from September 2022, focuses on Kathak dance movement recognition and correction using Google's Mediapipe technology. We have developed a real-time posture detection system that offers a learning software solution for Indian classical dance. This system tracks body, hand, and facial landmarks from video frames using Python and OpenCV. The results of this project have been significant and have been recognized by the academic community with the acceptance of a detailed technical paper by the 14th ICCCNT IEEE Conference.
+
+
+![Implementation Image 1](Images/Image1.jpg)
+
+![Implementation Image 2](Images/Image2.jpg)
+
 
 ## Key Objectives
 
@@ -34,6 +36,6 @@ If you have any questions, suggestions, or would like to collaborate on this pro
 
 - Email: glendhingra27@gmail.com
 
-![Structure Image](/images/structure.png)
+![Structure Image](Images/Image3.jpg)
 
-![Output and Results Image](/images/output_results.png)
+![Output and Results Image](Images/Image4.jpg)
